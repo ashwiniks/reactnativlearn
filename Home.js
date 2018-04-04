@@ -23,11 +23,9 @@ class Home extends Component {
              <Image style = {styles.img} source = {require('./img/studio.png')} />
             <TextInput style = {styles.input}
                underlineColorAndroid = "transparent"
-<<<<<<< HEAD
+
                placeholder = "Email is change"
-=======
-               placeholder = "Email change in this branch"
->>>>>>> iss54
+
                placeholderTextColor = "#9a73ef"
                autoCapitalize = "none"
                onChangeText = {this.handleEmail}/>
